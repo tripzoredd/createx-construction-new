@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>main</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
@@ -57,6 +58,32 @@
         </div>
     </div>
 </header>
+
+    <section class="first-block">
+        <div class="first-block__swiper swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide first-block__background">
+                    <picture><source srcset="img/main-swiper.webp" type="image/webp"><img src="img/main-swiper.jpg"></picture>
+                </div>
+                <div class="swiper-slide first-block__background">
+                    <picture><source srcset="img/main-swiper.webp" type="image/webp"><img src="img/main-swiper.jpg"></picture>
+                </div>
+                <div class="swiper-slide first-block__background">
+                    <picture><source srcset="img/main-swiper.webp" type="image/webp"><img src="img/main-swiper.jpg"></picture>
+                </div>
+                <div class="swiper-slide first-block__background">
+                    <picture><source srcset="img/main-swiper.webp" type="image/webp"><img src="img/main-swiper.jpg"></picture>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-arrows">
+                <img src="img/prev.svg" alt="" class="swiper-button-prev">
+                <img src="img/next.svg" alt="" class="swiper-button-next">
+            </div>
+        </div>
+    </section>
     
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/app.min.js"></script>
 </body>
 </html>
